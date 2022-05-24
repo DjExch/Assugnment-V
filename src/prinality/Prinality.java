@@ -72,12 +72,7 @@ public class Prinality {
         String num = "With 1st method number of iteration  is: " + iteration;
         return num;
     }
-    //printing result for method two
-    static String CheckPrimeMethodTwo(int n){
-        int iteration = result2(n);
-        String num = "With 2nd method number of iteration  is: " + iteration;
-        return num;
-    }
+    
 
     //main method
     public static void main(String[] args) {
@@ -85,7 +80,7 @@ public class Prinality {
         
         
         System.out.println(CheckPrimeMethodOne(12));
-        System.out.println(CheckPrimeMethodTwo(12));
+        
         
     }
     
